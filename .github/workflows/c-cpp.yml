@@ -14,7 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: install deps
-      run: sudo apt-get install libhts-dev
+      run: sudo apt-get install libhts-dev libboost-all-dev
     - name: make
       run: make
 
